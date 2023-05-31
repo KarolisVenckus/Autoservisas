@@ -1,0 +1,10 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="pavadinimas">Paslaugos pavadinimas:</label>
+    <input type="text" id="pavadinimas" name="pavadinimas">
+    <br>
+    <label for="kaina">Paslaugos kaina:</label>
+    <input type="text" id="kaina" name="kaina">
+    <br>
+    <input type="submit" value="Išsaugoti">
+  </form>
